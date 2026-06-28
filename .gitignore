@@ -37,9 +37,10 @@ dist/
 .coverage
 htmlcov/
 
-# Local databases
+# Local databases / chat history
 *.sqlite3
 *.db
+chat_history.db
 
 # Temporary files
 *.tmp
