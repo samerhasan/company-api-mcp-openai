@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run FastAPI API",
+      "type": "shell",
+      "command": "uvicorn app.api_server:app --reload --port 9000",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Run MCP Server",
+      "type": "shell",
+      "command": "python -m app.mcp_server",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Chat Client",
+      "type": "shell",
+      "command": "python -m app.chat_client",
+      "problemMatcher": []
+    }
+  ]
+}

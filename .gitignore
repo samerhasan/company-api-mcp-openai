@@ -1,0 +1,47 @@
+# Python virtual environments
+.venv/
+.venvmcp/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# VS Code local settings
+.vscode/settings.json
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Local databases
+*.sqlite3
+*.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp

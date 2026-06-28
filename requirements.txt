@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+httpx
+python-dotenv
+mcp[cli]
+openai-agents
+pydantic
+email-validator
